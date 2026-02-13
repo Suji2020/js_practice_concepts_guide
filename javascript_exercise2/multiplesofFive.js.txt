@@ -1,0 +1,9 @@
+let number = prompt("Enter a number:");
+
+number = Number(number); // Convert string to number
+
+if (number % 5 === 0) {
+    console.log("The number is a multiple of 5");
+} else {
+    console.log("The number is NOT a multiple of 5");
+}
